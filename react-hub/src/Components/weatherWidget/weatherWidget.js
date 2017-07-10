@@ -66,6 +66,10 @@ class WeatherWidget extends Component {
                 forecast: forecastArray
             })
         })
+
+        fetch('/users')
+            .then(response => response.json())
+            .then(data => { console.log(data);});
     }
 
     _mapForecastJson(json) {
@@ -83,7 +87,6 @@ class WeatherWidget extends Component {
 
     render() {
         const tenDayHtml = this.state.forecast.map(function(forecastUnit, index) {
-            console.warn(forecastUnit);
             return (
                 <div className="weather-widget__forecast_unit" key={index}>
                     <div>{forecastUnit.high.fahrenheit}</div>
