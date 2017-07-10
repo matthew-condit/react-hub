@@ -6,6 +6,8 @@ import WeatherWidget from './Components/weatherWidget/weatherWidget';
 import TrafficWidget from './Components/trafficWidget/trafficWidget';
 import MbtaWidget from './Components/mbtaWidget/mbtaWidget';
 import MessageBoardWidget from './Components/messageBoardWidget/messageBoardWidget';
+import TodoWidget from './Components/todoWidget/todoWidget';
+
 
 class App extends Component {
     render() {
@@ -16,6 +18,7 @@ class App extends Component {
                     <img src={logo} className="App-logo" alt="logo"/>
                     <h2>Welcome to Matt's App</h2>
                 </div>
+                <TodoWidget />
                 <MessageBoardWidget />
                 <WeatherWidget />
                 <MbtaWidget />

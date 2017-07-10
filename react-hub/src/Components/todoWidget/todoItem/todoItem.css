@@ -1,0 +1,17 @@
+.todo-item {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px 30%;
+}
+
+.todo-item input {
+    margin: 16px 10px;
+}
+
+
+.todo-item p {
+
+}
+.todo-item--completed p {
+    color: green;
+}

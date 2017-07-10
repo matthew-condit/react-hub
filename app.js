@@ -5,10 +5,21 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
+
+// START Routes
 const index = require('./routes/index');
 const users = require('./routes/users');
 const messages = require('./routes/messages');
+const groceries = require('./routes/groceries');
+const mbta = require('./routes/mbta');
+const news = require('./routes/news');
+const sports = require('./routes/sports');
+const todo = require('./routes/todo');
+const weather = require('./routes/weather');
+const traffic = require('./routes/traffic');
+// END Routes
 
+// DECLARATION app
 const app = express();
 
 // view engine setup
@@ -23,9 +34,21 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+// START route injection
 app.use('/', index);
 app.use('/users', users);
 app.use('/messages', messages);
+app.use('/groceries', groceries);
+app.use('/mbta', mbta);
+app.use('/news', news);
+app.use('/sports', sports);
+app.use('/todo', todo);
+app.use('/todo', todo);
+app.use('/weather', weather);
+app.use('/traffic', traffic);
+// END route injection
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
