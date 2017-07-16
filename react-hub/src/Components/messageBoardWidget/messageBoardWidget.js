@@ -7,7 +7,8 @@ class MessageBoardWidget extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            message: ""
+            message: "",
+            newMessage: ""
         };
     }
 
@@ -32,7 +33,7 @@ class MessageBoardWidget extends Component {
     }
 
     addMessage() {
-        fetch('/message',
+        fetch('/messages/add',
             {
                 method: 'POST',
                 headers: {
@@ -40,15 +41,30 @@ class MessageBoardWidget extends Component {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    firstParam: 'yourValue',
-                    secondParam: 'yourOtherValue',
+                    message: this.state.newMessage
                 })
+            }).then(()=> {
+            console.log("here");
+            this.getMessage();
+            this.setState({
+                newMessage: ""
             })
+            });
     }
+
+    handleText(event) {
+        this.setState({
+            newMessage : event.target.value
+        })
+    }
+
+
 
     render() {
         return (
             <div className="message-board-widget">
+                <input type="text" onChange={this.handleText.bind(this)} />
+                <button onClick={this.addMessage.bind(this)}>Send Message</button>
                 <div>{ this.state.message }</div>
             </div>
         )
