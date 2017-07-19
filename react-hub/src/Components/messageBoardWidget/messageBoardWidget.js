@@ -13,10 +13,8 @@ class MessageBoardWidget extends Component {
         };
 
         //subsribe
-        newMessage((message) => {
-            console.log('boo');
-            console.log('new message in component', message);
-            // let messages = this.state.concat()
+        newMessage((err, messages) => {
+            this.setState({messages});
         });
     }
 

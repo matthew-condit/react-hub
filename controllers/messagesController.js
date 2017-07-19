@@ -11,7 +11,8 @@ exports.addMessage = (message) => {
         text: message,
         timestamp: new Date(),
         user: "Matt Condit"
-    })
+    });
+    return messages;
 };
 
 exports.getMessages = () => {

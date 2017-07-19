@@ -5,6 +5,7 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const io = require('socket.io')();
+const socketModule = require('./socketModule');
 
 
 // START Routes
@@ -74,7 +75,7 @@ app.use(function(err, req, res, next) {
 io.on('connection', (client) => {
     console.log('client connected');
     client.on('messageSent', (message) => {
-        client.emit('newMessage', message);
+        client.emit('newMessage', socketModule.newMessage(message));
     })
 });
 
