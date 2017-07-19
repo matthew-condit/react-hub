@@ -74,7 +74,6 @@ app.use(function(err, req, res, next) {
 io.on('connection', (client) => {
     console.log('client connected');
     client.on('messageSent', (message) => {
-        console.log(message);
         client.emit('newMessage', message);
     })
 });

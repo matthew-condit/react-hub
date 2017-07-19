@@ -1,6 +1,11 @@
-import messageController from './controllers/messagesController';
+const messagesController = require('./controllers/messagesController');
 
 exports.newMessage = (message)=> {
     console.warn("here", message);
-    messageController.addMessage(message);
+    messagesController.addMessage(message);
 };
+
+exports.getMessages = () => {
+    console.log('getMessage');
+    messagesController.getMessages();
+}
