@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {newMessage, sendMessage} from '../../socketService';
 
 import './messageBoardWidget.css';
 
@@ -10,6 +11,9 @@ class MessageBoardWidget extends Component {
             message: "",
             newMessage: ""
         };
+        newMessage((message) => {
+            console.log('new message', message);
+        });
     }
 
     componentWillMount() {
@@ -18,6 +22,7 @@ class MessageBoardWidget extends Component {
 
     componentDidMount() {
         this.getMessage();
+
     }
 
     getMessage() {
@@ -33,6 +38,9 @@ class MessageBoardWidget extends Component {
     }
 
     addMessage() {
+
+        sendMessage(this.state.newMessage);
+
         fetch('/messages/add',
             {
                 method: 'POST',
@@ -43,27 +51,26 @@ class MessageBoardWidget extends Component {
                 body: JSON.stringify({
                     message: this.state.newMessage
                 })
-            }).then(()=> {
+            }).then(() => {
             console.log("here");
             this.getMessage();
             this.setState({
                 newMessage: ""
             })
-            });
+        });
     }
 
     handleText(event) {
         this.setState({
-            newMessage : event.target.value
+            newMessage: event.target.value
         })
     }
-
 
 
     render() {
         return (
             <div className="message-board-widget">
-                <input type="text" onChange={this.handleText.bind(this)} />
+                <input type="text" onChange={this.handleText.bind(this)}/>
                 <button onClick={this.addMessage.bind(this)}>Send Message</button>
                 <div>{ this.state.message }</div>
             </div>

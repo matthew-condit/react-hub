@@ -4,6 +4,7 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const io = require('socket.io')();
 
 
 // START Routes
@@ -67,5 +68,19 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
+// SOCKET.IO CONFIG
+io.on('connection', (client) => {
+    console.log('client connected');
+    client.on('messageSent', (message) => {
+        console.log(message);
+        client.emit('newMessage', message);
+    })
+});
+
+const port = 8000;
+io.listen(port);
+console.log('listening on port ', port);
 
 module.exports = app;
