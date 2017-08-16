@@ -7,7 +7,6 @@ class TodoItem extends Component {
     constructor(props) {
         super(props);
 
-        console.log('todos', props);
         this.state = {
             goal: props.todo.goal,
             completed: props.todo.completed

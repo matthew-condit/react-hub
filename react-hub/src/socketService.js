@@ -1,16 +1,26 @@
 import openSocket from 'socket.io-client';
-const  socket = openSocket('http://localhost:8000');
+const  socket = openSocket('http://10.0.0.185:8000');
 
 function newMessage(cb) {
-    socket.on('newMessage', message => {
-        console.log('soc', message);
-        cb(null, message)
+    socket.on('newMessage', messages => {
+        console.log("newMessage", messages);
+        cb(null, messages)
     });
 }
 
-function sendMessage(message) {
-    console.log(message);
-    socket.emit('messageSent', message);
+function sendMessage(message, userName) {
+    socket.emit('messageSent', message, userName);
 }
 
-export { newMessage, sendMessage };
+function newUser(cb) {
+    socket.on('newUser', users => {
+        console.log("users", users);
+        cb(null, users);
+    })
+}
+
+function signin(user) {
+    socket.emit('signin', user)
+}
+
+export { newMessage, sendMessage, newUser, signin };

@@ -72,10 +72,19 @@ app.use(function(err, req, res, next) {
 
 
 // SOCKET.IO CONFIG
+let allClients = [];
 io.on('connection', (client) => {
-    console.log('client connected');
-    client.on('messageSent', (message) => {
-        client.emit('newMessage', socketModule.newMessage(message));
+    allClients.push(client);
+    client.on('messageSent', (message, userName) => {
+        io.sockets.emit('newMessage', socketModule.newMessage(message, userName));
+    });
+
+    client.on('signin', (user) => {
+        io.sockets.emit('newUser', socketModule.newUser(user, client.id));
+    });
+
+    client.on('disconnect', () => {
+        io.sockets.emit('userRemoved', socketModule.removeUser(client.id));
     })
 });
 

@@ -2,3 +2,20 @@
     height: 400px;
     background-color: #68C3A3;
 }
+
+.login-wrapper {
+    padding: 10%;
+}
+
+.login-wrapper label {
+    font-size: 20px;
+}
+
+.login-wrapper input {
+    padding: 10px;
+}
+
+.login-wrapper button {
+    display: block;
+    margin: 0 auto;
+}
