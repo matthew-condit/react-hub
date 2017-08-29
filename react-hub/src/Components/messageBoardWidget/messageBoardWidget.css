@@ -39,7 +39,6 @@
     cursor: pointer;
     font-size: 15px;
 
-
 }
 
 .messages-wrapper {
@@ -77,22 +76,32 @@
     flex-shrink: 2;
 }
 
-
-
 .messages__message {
     background-color: white;
     border: 1px solid powderblue;
+    display: grid;
+    grid-template: 1fr/ 5fr 1fr 1fr;
+
 }
 
 .messages__message .text {
-
+    /*flex: 5;*/
+    font-size: 20px;
+    padding: 5px 5px 5px 20px;
+    text-align: left;
 }
 
 .messages__message .userName {
-
+    /*flex: 1;*/
+    background-color: #c2c2c2;
+    padding: 10px;
+    border-right: 1px solid #2257ff;
 }
 
 .messages__message .timestamp {
+    /*flex: 1;*/
+    background-color: #c2c2c2;
+    padding: 10px;
 
 }
 

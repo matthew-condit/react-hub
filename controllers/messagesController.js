@@ -1,10 +1,4 @@
-const messages = [
-    {
-        text: 'hey annie',
-        timestamp: new Date(),
-        user: {userName:'Matt'}
-    }
-];
+const messages = [];
 
 exports.addMessage = (message, userName) => {
     messages.push({

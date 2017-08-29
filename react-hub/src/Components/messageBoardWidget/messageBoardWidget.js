@@ -78,8 +78,7 @@ class MessageBoardWidget extends Component {
 
     checkEnter(event) {
         if (event.key === "Enter" && !event.shiftKey) {
-            console.log('add message');
-            this.addMessage();
+            this.addMessage(event);
         }
     }
 
@@ -103,7 +102,7 @@ class MessageBoardWidget extends Component {
     _getTime(timestamp) {
         const date = new Date(timestamp);
         if (date.toLocaleDateString() === new Date().toLocaleDateString()) {
-            return date.toLocaleTimeString();
+            return (date.getHours() % 12 ) + ":" + (date.getMinutes() < 10 ? "0" + date.getMinutes(): date.getMinutes()) + " " + (date.getHours() > 12 ? "PM" : "AM");
         }
         return date.toLocaleString();
     }
@@ -120,6 +119,16 @@ class MessageBoardWidget extends Component {
                 </div>
             );
         });
+
+
+        if (this.state.messages.length === 0) {
+            messageHtml = (
+                <div className="messages__message">
+                    <div className="text">No messages yet.  Send a good ice breaker ;) </div>
+                </div>
+            )
+        }
+
         if (this.state.nameGiven) {
             return (
                 <div className="message-board-widget">

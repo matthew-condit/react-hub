@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client';
-const  socket = openSocket('http://10.0.0.185:8000');
+const  socket = openSocket('http://10.0.0.185:8001');
 
 function newMessage(cb) {
     socket.on('newMessage', messages => {
