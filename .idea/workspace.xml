@@ -2,285 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1035766d-68e4-419e-881c-96d5a4c6c2d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/usersController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/.cache/babel-loader/1cb6d1ce48317fbf5390f9795e21dbe622a97a6b.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/.cache/babel-loader/2b6a9b07b8a3c1b8be7f0e4f1eba902687a93327.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/.cache/babel-loader/8df517df40609a12ca7c5d2ce04a297b1f0e629f.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/.cache/babel-loader/a11b865157a5ede68e1906e8ce97243ec81854de.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/.cache/babel-loader/b79b641bddbde9c2a647f89559b72893c6854a00.json.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/appearance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-column-align.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/intrinsic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/data/built-in-features.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/data/built-ins.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/data/plugin-features.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/lib/default-includes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/lib/module-transformations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/lib/normalize-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/lib/transform-polyfill-require-plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/data/prefixes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/at-rule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/autoprefixer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/brackets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/browsers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/declaration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/align-content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/align-items.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/align-self.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/background-size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/block-logical.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/border-image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/border-radius.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/break-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/cross-fade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/display-flex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/display-grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/filter-value.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-basis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-direction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-grow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-shrink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-values.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex-wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/flex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/fullscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/gradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/grid-end.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/grid-row-align.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/grid-start.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/grid-template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/image-rendering.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/image-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/inline-logical.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/justify-content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/justify-items.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/mask-border.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/order.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/pixelated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/stretch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/transform-decl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/hacks/writing-mode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/info.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/old-selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/old-value.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/prefixer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/prefixes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/processor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/resolution.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/supports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/lib/value.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/cssnano/node_modules/autoprefixer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/lib/Error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/lib/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/lib/options.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/fixUrls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/CodeNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/MappingsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/SingleLineNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/SourceListMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/SourceNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/fromStringWithSourceMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/source-list-map/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/CachedSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/ConcatSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/LineToLineMappedSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/OriginalSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/PrefixSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/RawSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/ReplaceSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/Source.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/SourceAndMapMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/SourceMapSource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack/node_modules/webpack-sources/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/command.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/levenshtein.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/obj-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/be.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/es.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/fr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/hi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/hu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/id.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/it.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/ja.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/ko.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/nb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/nl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/pirate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/pl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/pt.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/pt_BR.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/ru.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/th.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/tr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/locales/zh_CN.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/yargs.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/mcondit.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/mcondit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/messagesController.js" afterPath="$PROJECT_DIR$/controllers/messagesController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/AUTHORS" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/CHANGELOG.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/data/prefixes.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/data/prefixes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/at-rule.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/at-rule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/autoprefixer.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/autoprefixer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/brackets.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/brackets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/browsers.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/browsers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/declaration.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/declaration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/align-content.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/align-content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/align-items.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/align-items.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/align-self.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/align-self.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/background-size.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/background-size.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/block-logical.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/block-logical.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/border-image.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/border-image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/border-radius.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/border-radius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/break-props.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/break-props.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/cross-fade.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/cross-fade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/display-flex.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/display-flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/display-grid.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/display-grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/filter-value.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/filter-value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/filter.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-basis.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-basis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-direction.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-direction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-flow.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-flow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-grow.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-grow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-shrink.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-shrink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-spec.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-values.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-values.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-wrap.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex-wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/fullscreen.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/fullscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/gradient.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/gradient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-end.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-end.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-row-align.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-row-align.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-start.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-template.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/grid-template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/image-rendering.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/image-rendering.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/image-set.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/image-set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/inline-logical.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/inline-logical.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/justify-content.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/justify-content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/mask-border.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/mask-border.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/order.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/pixelated.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/pixelated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/placeholder.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/placeholder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/text-emphasis-position.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/transform-decl.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/transform-decl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/writing-mode.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/hacks/writing-mode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/info.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/old-selector.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/old-selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/old-value.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/old-value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/prefixer.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/prefixer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/prefixes.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/prefixes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/processor.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/processor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/resolution.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/resolution.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/selector.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/supports.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/supports.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/transition.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/utils.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/value.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/lib/value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/autoprefixer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-class-properties/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-class-properties/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-class-properties/lib/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-class-properties/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-class-properties/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-class-properties/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-object-rest-spread/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-object-rest-spread/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-object-rest-spread/lib/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-object-rest-spread/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-object-rest-spread/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-object-rest-spread/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/lib/definitions.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/lib/definitions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/lib/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-plugin-transform-runtime/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/.npmignore" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/data/plugins.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/data/plugins.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/lib/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-env/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react-app/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react-app/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react-app/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react-app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react-app/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react-app/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react/lib/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/babel-preset-react/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/caniuse-api/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/react-hub/node_modules/caniuse-api/node_modules/.bin/browserslist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/mime-db/HISTORY.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/mime-db/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/mime-db/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/mime-db/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/mime-db/db.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/mime-db/db.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/mime-db/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/mime-db/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/CHANGELOG.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/LICENSE" afterPath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/postcss-loader/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/postcss-merge-rules/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/react-hub/node_modules/postcss-merge-rules/node_modules/.bin/browserslist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/test.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/safe-buffer/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/addStyleUrl.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/addStyleUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/addStyles.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/addStyles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/url.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/style-loader/useable.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/style-loader/useable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/tapable/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/tapable/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/tapable/lib/Tapable.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/tapable/lib/Tapable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/tapable/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/tapable/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/CachedSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/CachedSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/ConcatSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/ConcatSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/LineToLineMappedSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/LineToLineMappedSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/OriginalSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/OriginalSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/PrefixSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/PrefixSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/RawSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/RawSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/ReplaceSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/ReplaceSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/Source.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/Source.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/SourceAndMapMixin.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/SourceAndMapMixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/SourceMapSource.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/SourceMapSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/webpack-sources/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/CHANGELOG.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/LICENSE" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/completion.sh.hbs" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/completion.sh.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/completion.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/completion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/usage.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/usage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/validation.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/lib/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/yargs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/package.json" afterPath="$PROJECT_DIR$/react-hub/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/usersController.js" afterPath="$PROJECT_DIR$/controllers/usersController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/main.js" afterPath="$PROJECT_DIR$/react-hub/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/App.css" afterPath="$PROJECT_DIR$/react-hub/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/socketService.js" afterPath="$PROJECT_DIR$/react-hub/src/socketService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/yarn.lock" afterPath="$PROJECT_DIR$/react-hub/yarn.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/messages.js" afterPath="$PROJECT_DIR$/routes/messages.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/socketModule.js" afterPath="$PROJECT_DIR$/socketModule.js" />
     </list>
@@ -300,31 +29,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="messageBoardWidget.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-hub/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerServiceWorker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-hub/src/registerServiceWorker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-hub/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-hub/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/messages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socketModule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socketModule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messagesController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/messagesController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="552">
+              <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -334,61 +107,17 @@
         <entry file="file://$PROJECT_DIR$/controllers/usersController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/messages.js">
+      <file leaf-file-name="socketService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-hub/src/socketService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activeUsersWidget.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messageBoardWidget.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messageBoardWidget.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -448,23 +177,24 @@
         <option value="$PROJECT_DIR$/routes/traffic.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css" />
-        <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/hangmanWidget/hangmanWidget.css" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/hangmanWidget/hangmanWidget.js" />
         <option value="$PROJECT_DIR$/react-hub/src/App.js" />
-        <option value="$PROJECT_DIR$/react-hub/main.js" />
-        <option value="$PROJECT_DIR$/react-hub/src/socketService.js" />
         <option value="$PROJECT_DIR$/controllers/messagesController.js" />
-        <option value="$PROJECT_DIR$/routes/messages.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
+        <option value="$PROJECT_DIR$/react-hub/src/App.css" />
+        <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" />
         <option value="$PROJECT_DIR$/socketModule.js" />
         <option value="$PROJECT_DIR$/controllers/usersController.js" />
-        <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" />
+        <option value="$PROJECT_DIR$/routes/messages.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" />
+        <option value="$PROJECT_DIR$/react-hub/main.js" />
+        <option value="$PROJECT_DIR$/react-hub/src/socketService.js" />
       </list>
     </option>
   </component>
@@ -499,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -536,250 +265,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trafficWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messageBoardWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messageBoardWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activeUsersWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mbtaWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groceriesWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiNotes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-hub-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -790,7 +282,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="app.cs&#9;FILE&#9;file:///Users/mcondit/Documents/random/react-hub-portal/react-hub/src/App.css&#10;todo&#9;FILE&#9;file:///Users/mcondit/Documents/random/react-hub-portal/react-hub/src/Components/todoWidget/todoWidget.css&#10;user&#9;FILE&#9;file:///Users/mcondit/Documents/random/react-hub-portal/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
@@ -870,6 +362,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1035766d-68e4-419e-881c-96d5a4c6c2d8" name="Default" comment="" />
@@ -885,12 +380,16 @@
       <workItem from="1500473231387" duration="11000" />
       <workItem from="1500475208074" duration="369000" />
       <workItem from="1500993570257" duration="495000" />
-      <workItem from="1502843835894" duration="7389000" />
+      <workItem from="1502843835894" duration="7447000" />
+      <workItem from="1502983164906" duration="9185000" />
+      <workItem from="1503435586946" duration="1127000" />
+      <workItem from="1503498945358" duration="615000" />
+      <workItem from="1503956859883" duration="2043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31645000" />
+    <option name="totallyTimeSpent" value="44673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -905,9 +404,8 @@
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25655282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -916,6 +414,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -932,20 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -957,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1161,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +644,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
           <caret line="88" column="79" lean-forward="false" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/groceriesWidget/groceriesWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/mbtaWidget/mbtaWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/trafficWidget/trafficWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/messagesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socketModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,61 +755,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/groceriesWidget/groceriesWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/mbtaWidget/mbtaWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/trafficWidget/trafficWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/socketService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="552">
+          <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1249,42 +781,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/react-hub/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/messages.js">
+    <entry file="file://$PROJECT_DIR$/react-hub/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/messagesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socketModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1292,36 +802,16 @@
     <entry file="file://$PROJECT_DIR$/controllers/usersController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js">
+    <entry file="file://$PROJECT_DIR$/react-hub/src/socketService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="510">
+          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

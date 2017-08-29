@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ActiveUsersWidget  from './activeUsersWidget/activeUsersWidget';
-import {newMessage, sendMessage, newUser, signin} from '../../socketService';
+import {newMessage, sendMessage, newUser, userLeft, signin} from '../../socketService';
 
 import './messageBoardWidget.css';
 
@@ -22,7 +22,10 @@ class MessageBoardWidget extends Component {
         });
         newUser((err, users) => {
             this.setState({users});
-        })
+        });
+        userLeft((err, users) => {
+            this.setState({users});
+        });
     }
 
     componentWillMount() {
@@ -47,8 +50,8 @@ class MessageBoardWidget extends Component {
 
     }
 
-    addMessage() {
-        console.log(this.state.newMessage);
+    addMessage(e) {
+        e.preventDefault();
 
         sendMessage(this.state.newMessage, this.state.userName);
 
@@ -67,10 +70,17 @@ class MessageBoardWidget extends Component {
             })
     }
 
-    handleText(event) {
+    handleTextOnChange(event) {
         this.setState({
             newMessage: event.target.value
         })
+    }
+
+    checkEnter(event) {
+        if (event.key === "Enter" && !event.shiftKey) {
+            console.log('add message');
+            this.addMessage();
+        }
     }
 
     handleNameInput(event) {
@@ -79,7 +89,8 @@ class MessageBoardWidget extends Component {
         });
     }
 
-    submitName() {
+    submitName(e) {
+        e.preventDefault();
         this.setState({
             nameGiven: true
         });
@@ -90,9 +101,12 @@ class MessageBoardWidget extends Component {
     }
 
     _getTime(timestamp) {
-
+        const date = new Date(timestamp);
+        if (date.toLocaleDateString() === new Date().toLocaleDateString()) {
+            return date.toLocaleTimeString();
+        }
+        return date.toLocaleString();
     }
-
 
 
     render() {
@@ -100,9 +114,9 @@ class MessageBoardWidget extends Component {
         let messageHtml = this.state.messages.map((message, index) => {
             return (
                 <div key={index} className="messages__message">
-                    <div className=""> {message.text}</div>
-                    <div className="">{message.user.userName}</div>
-                    <div className="">{this._getTime(message.timestamp)}</div>
+                    <div className="text"> {message.text}</div>
+                    <div className="userName">{message.user.userName}</div>
+                    <div className="timestamp">{this._getTime(message.timestamp)}</div>
                 </div>
             );
         });
@@ -111,19 +125,28 @@ class MessageBoardWidget extends Component {
                 <div className="message-board-widget">
                     <ActiveUsersWidget users={this.state.users}/>
                     <div className="messages-wrapper">
-                        <input type="text" value={this.state.newMessage} onChange={this.handleText.bind(this)}/>
-                        <button onClick={this.addMessage.bind(this)}>Send Message</button>
-                        <div> { messageHtml }</div>
+                        <form onSubmit={this.addMessage.bind(this)} className="message__send-message-wrapper">
+                            <div><textarea rows="1" value={this.state.newMessage} onKeyDown={this.checkEnter.bind(this)}
+                                           onChange={this.handleTextOnChange.bind(this)} placeholder="Send Messages...">
+
+                            </textarea></div>
+                            <button type="submit" className="send-button">Send</button>
+                        </form>
+                        <div className="old-messages"> { messageHtml }</div>
+
                     </div>
                 </div>
             )
         } else {
             return (
-                <div className="message-board-widget">
+                <div className="message-board-widget-login">
                     <div className="login-wrapper">
-                        <div>What's your name?</div>
-                        <input type="text" value={this.state.userName} onChange={this.handleNameInput.bind(this)}/>
-                        <button onClick={this.submitName.bind(this)}>Let's message board!</button>
+                        <h2>Welcome to the chat room</h2>
+                        <form onSubmit={this.submitName.bind(this)}>
+                            <input type="text" value={this.state.userName} onChange={this.handleNameInput.bind(this)}
+                                   placeholder="John Doe"/>
+                            <button type="submit" className="submit-button">Sign in!</button>
+                        </form>
                     </div>
                 </div>
             )

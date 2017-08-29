@@ -22,6 +22,6 @@ router.get('/users', function(req, res, next) {
     res.json({
         users: usersController.getUsers()
     });
-})
+});
 
 module.exports = router;

@@ -1,21 +1,101 @@
 .message-board-widget {
     height: 400px;
-    background-color: #68C3A3;
+    position: relative;
+    display: grid;
+    grid-template: 1fr / 1fr 4fr;
 }
 
 .login-wrapper {
     padding: 10%;
+    background-color: #4099FF;
 }
 
-.login-wrapper label {
-    font-size: 20px;
+.login-wrapper h2 {
+    color: white;
+    margin-bottom: 40px;
 }
 
 .login-wrapper input {
     padding: 10px;
+    font-size: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
 }
 
-.login-wrapper button {
-    display: block;
-    margin: 0 auto;
+.login-wrapper .submit-button {
+    /*display: block;*/
+    vertical-align: top;
+    background-color: white;
+    border: none;
+    border-left: 1px solid #c2c2c2;
+    padding: 10px 20px;
+    height: 40px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+
+.messages-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+
+.message__send-message-wrapper {
+    /*background-color: #f6f6f6;*/
+    display: grid;
+    grid-template: 1fr/ 6fr 1fr;
+}
+
+.message__send-message-wrapper textarea {
+    min-height: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-top: 2px solid #4099FF;
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.message__send-message-wrapper .send-button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.old-messages {
+    overflow-y: scroll;
+    max-height: 100%;
+    flex-shrink: 2;
+}
+
+
+
+.messages__message {
+    background-color: white;
+    border: 1px solid powderblue;
+}
+
+.messages__message .text {
+
+}
+
+.messages__message .userName {
+
+}
+
+.messages__message .timestamp {
+
+}
+
+.active-users-widget {
+    border-right: 2px solid #e2e2e2;
 }

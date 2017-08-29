@@ -19,8 +19,17 @@ function newUser(cb) {
     })
 }
 
+
+function userLeft(cb) {
+    socket.on('userRemoved', users => {
+        console.log("disconnectedUser", users);
+        cb(null, users);
+    })
+}
+
 function signin(user) {
     socket.emit('signin', user)
 }
 
-export { newMessage, sendMessage, newUser, signin };
+
+export { newMessage, sendMessage, newUser, userLeft, signin };

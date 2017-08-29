@@ -9,5 +9,6 @@ exports.signin = (user, socketId) => {
 
 exports.signout = (socketid) => {
     users = users.filter(user =>  user.socketId !== socketid);
+    console.log(users);
     return users;
 }

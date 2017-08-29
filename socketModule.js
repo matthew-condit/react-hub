@@ -13,6 +13,6 @@ exports.newUser = (user, socketId) => {
 
 exports.removeUser = (socketId) => {
     return usersController.signout(socketId);
-}
+};
 
 exports.getUsers = () => usersController.getUsers();
