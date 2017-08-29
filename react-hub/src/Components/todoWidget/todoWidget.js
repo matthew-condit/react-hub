@@ -111,8 +111,9 @@ class TodoWidget extends Component {
         return (
             <div className="todo-widget">
                 <div className="todo-input">
-                    <label name="priority">Priority</label>
-                    <select value={this.state.newTodo.priority} onChange={this.updateNewPriority.bind(this)}>
+                    <select value={this.state.newTodo.priority}
+                            onChange={this.updateNewPriority.bind(this)}
+                            className="select">
                         <option value={PRIORITIES.NORMAL}>Normal</option>
                         <option value={PRIORITIES.HIGH}>High</option>
                         <option value={PRIORITIES.LOW}>Low</option>

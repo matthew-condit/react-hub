@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1035766d-68e4-419e-881c-96d5a4c6c2d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/messagesController.js" afterPath="$PROJECT_DIR$/controllers/messagesController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/socketService.js" afterPath="$PROJECT_DIR$/react-hub/src/socketService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +24,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="messageBoardWidget.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="messageBoardWidget.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-24">
@@ -37,6 +32,16 @@
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="todoWidget.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="115" column="45" lean-forward="false" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -65,11 +70,51 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="messageBoardWidget.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="messageBoardWidget.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="333">
                   <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="weatherWidget.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="657">
+                  <caret line="88" column="79" lean-forward="false" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="79" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="weatherWidget.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="todoWidget.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="todoItem.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -116,14 +161,11 @@
         <option value="$PROJECT_DIR$/routes/weather.js" />
         <option value="$PROJECT_DIR$/routes/traffic.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js" />
-        <option value="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/hangmanWidget/hangmanWidget.css" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/hangmanWidget/hangmanWidget.js" />
         <option value="$PROJECT_DIR$/react-hub/src/App.js" />
-        <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
         <option value="$PROJECT_DIR$/react-hub/src/App.css" />
         <option value="$PROJECT_DIR$/socketModule.js" />
         <option value="$PROJECT_DIR$/controllers/usersController.js" />
@@ -138,6 +180,9 @@
         <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" />
+        <option value="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css" />
+        <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" />
+        <option value="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
       </list>
     </option>
   </component>
@@ -251,6 +296,88 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weatherWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-hub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todoItem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,12 +565,12 @@
       <workItem from="1503435586946" duration="1127000" />
       <workItem from="1503498945358" duration="615000" />
       <workItem from="1503956859883" duration="2043000" />
-      <workItem from="1503969344917" duration="3084000" />
+      <workItem from="1503969344917" duration="4753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47757000" />
+    <option name="totallyTimeSpent" value="49426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -586,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -611,20 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -649,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="88" column="79" lean-forward="false" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/Components/groceriesWidget/groceriesWidget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -674,13 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -937,6 +1029,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="88" column="79" lean-forward="false" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="115" column="45" lean-forward="false" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
       </provider>
