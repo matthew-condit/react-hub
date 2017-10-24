@@ -44,7 +44,7 @@ class WeatherWidget extends Component {
     };
 
 
-    _mapCurrentWeather(json) {
+    _mapCurrentWeather = (json) => {
         let conditionObj = {
             feelsLike: json.current_observation.feelslike_f,
             temp: json.current_observation.temp_f,
@@ -54,7 +54,7 @@ class WeatherWidget extends Component {
             location: json.current_observation.display_location
         }
         return conditionObj;
-    }
+    };
 
 
     setTenDayForecast() {
@@ -72,14 +72,13 @@ class WeatherWidget extends Component {
             .then(data => { console.log(data);});
     }
 
-    _mapForecastJson(json) {
+    _mapForecastJson = (json) => {
         const simpleForecast = json.forecast.simpleforecast.forecastday;
         // const textForecast = json.forecast.txt_forecast;
         return simpleForecast;
+    };
 
-    }
-
-    toggleWidget() {
+    toggleWidget = () => {
         this.setState({
             hideWidget: !this.state.hideWidget
         })
@@ -89,10 +88,10 @@ class WeatherWidget extends Component {
         const tenDayHtml = this.state.forecast.map(function(forecastUnit, index) {
             return (
                 <div className="weather-widget__forecast_unit" key={index}>
-                    <div>{forecastUnit.high.fahrenheit}</div>
-                    <div>{forecastUnit.low.fahrenheit}</div>
                     <div>{forecastUnit.date.weekday}</div>
                     <div>{forecastUnit.date.monthname} {forecastUnit.date.day}, {forecastUnit.date.year}</div>
+                    <div>{forecastUnit.high.fahrenheit}</div>
+                    <div>{forecastUnit.low.fahrenheit}</div>
                     <div>{forecastUnit.conditions}</div>
                 </div>
             )
@@ -100,7 +99,6 @@ class WeatherWidget extends Component {
 
         return (
             <div className={"weather-widget" + (this.state.hideWidget ? " weather-widget--hidden " : "")}>
-                <div className="weather-widget__hide-button" onClick={this.toggleWidget.bind(this)}>X</div>
                 <div className="weather-widget__current-weather">
                     <div className="weather-widget__info-card">{this.state.temp} degrees</div>
                     <div className="weather-widget__info-card">It is {this.state.weather} outside</div>

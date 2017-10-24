@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './todoWidget.css';
 import TodoItem from './todoItem/todoItem.js';
 
@@ -14,7 +14,7 @@ class TodoWidget extends Component {
 
     constructor(props) {
         super(props);
-        let originalTodos =  [
+        let originalTodos = [
             {
                 goal: "Grill turkey",
                 completed: false,
@@ -97,32 +97,31 @@ class TodoWidget extends Component {
     }
 
 
-
-
-
     render() {
         const todoList = this.state.todos.map((todo) => {
             return (
-                <TodoItem key={todo.id} todo={todo} />
+                <TodoItem key={todo.id} todo={todo}/>
             )
         });
 
 
         return (
             <div className="todo-widget">
-                <div className="todo-input">
-                    <select value={this.state.newTodo.priority}
-                            onChange={this.updateNewPriority.bind(this)}
-                            className="select">
-                        <option value={PRIORITIES.NORMAL}>Normal</option>
-                        <option value={PRIORITIES.HIGH}>High</option>
-                        <option value={PRIORITIES.LOW}>Low</option>
-                    </select>
-                    <input type="text" value={this.state.newTodo.goal} onInput={this.onChange.bind(this)} />
-                    <button onClick={this.addTodo.bind(this)} >Add Todo</button>
-                </div>
-                <div className="todo-items">
-                    {todoList}
+                <div className="todo-widget-content">
+                    <div className="todo-input">
+                        <select value={this.state.newTodo.priority}
+                                onChange={this.updateNewPriority.bind(this)}
+                                className="select">
+                            <option value={PRIORITIES.NORMAL}>Normal</option>
+                            <option value={PRIORITIES.HIGH}>High</option>
+                            <option value={PRIORITIES.LOW}>Low</option>
+                        </select>
+                        <input type="text" value={this.state.newTodo.goal} onInput={this.onChange.bind(this)}/>
+                        <button onClick={this.addTodo.bind(this)}>Add Todo</button>
+                    </div>
+                    <div className="todo-items">
+                        {todoList}
+                    </div>
                 </div>
             </div>
         )

@@ -1,5 +1,9 @@
 .todo-widget {
-    padding: 0 20%;
+    background-color: #f4f4f4;
+}
+
+.todo-widget-content {
+    padding: 10% 20%;
 }
 
 .todo-input {
