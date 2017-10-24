@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1035766d-68e4-419e-881c-96d5a4c6c2d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/index/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/index/indexComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/index/notFound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/navHeader/headerUserWidget/headerUserWidget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/views/loginComponent/loginComponent.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/views/loginComponent/loginComponent.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/file-loader/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/react-hub/node_modules/file-loader/LICENSE" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/acorn-jsx/node_modules/.bin/acorn" afterPath="$PROJECT_DIR$/react-hub/node_modules/acorn-jsx/node_modules/.bin/acorn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/file-loader/README.md" afterPath="$PROJECT_DIR$/react-hub/node_modules/file-loader/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/file-loader/index.js" afterPath="$PROJECT_DIR$/react-hub/node_modules/file-loader/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/file-loader/package.json" afterPath="$PROJECT_DIR$/react-hub/node_modules/file-loader/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/node_modules/fsevents/node_modules/.bin/node-pre-gyp" afterPath="$PROJECT_DIR$/react-hub/node_modules/fsevents/node_modules/.bin/node-pre-gyp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/package.json" afterPath="$PROJECT_DIR$/react-hub/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/App.js" afterPath="$PROJECT_DIR$/react-hub/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/yarn.lock" afterPath="$PROJECT_DIR$/react-hub/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js" afterPath="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,13 +25,8 @@
           <file leaf-file-name="navHeader.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-                  <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-                  <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-                  <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-                  <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-                  <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -118,8 +91,8 @@
           <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/react-hub/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+                <state relative-caret-position="508">
+                  <caret line="38" column="76" lean-forward="false" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -210,8 +183,8 @@
         <option value="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.css" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/index/indexComponent.js" />
         <option value="$PROJECT_DIR$/react-hub/src/views/loginComponent/loginComponent.js" />
-        <option value="$PROJECT_DIR$/react-hub/src/App.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/navHeader/headerUserWidget/headerUserWidget.js" />
+        <option value="$PROJECT_DIR$/react-hub/src/App.js" />
         <option value="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js" />
       </list>
     </option>
@@ -457,12 +430,12 @@
       <workItem from="1504101375039" duration="433000" />
       <workItem from="1504665324887" duration="295000" />
       <workItem from="1508345624968" duration="332000" />
-      <workItem from="1508797861683" duration="7621000" />
+      <workItem from="1508797861683" duration="7731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59807000" />
+    <option name="totallyTimeSpent" value="59917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -845,16 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/views/loginComponent/loginComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -871,15 +834,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="38" column="76" lean-forward="false" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

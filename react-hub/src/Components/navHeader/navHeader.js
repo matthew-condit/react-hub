@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 
 import './navHeader.css';
+import LoginComponent from "../../views/loginComponent/loginComponent";
 
 const WrappedNavLink = (props) => {
     return (
@@ -9,10 +10,13 @@ const WrappedNavLink = (props) => {
     );
 };
 
+
+
+
 const navHeader = (props) => (
     <div className='navHeader'>
-        <WrappedNavLink to='/login'>Login</WrappedNavLink>
-        <WrappedNavLink to='/logout'>Logout</WrappedNavLink>
+        <WrappedNavLink to='/auth/login'>Login</WrappedNavLink>
+        <WrappedNavLink to='/auth/logout'>Logout</WrappedNavLink>
         <WrappedNavLink exact to='/' >Home</WrappedNavLink>
         <WrappedNavLink to='/messages'>Messages</WrappedNavLink>
         <WrappedNavLink to='/weather'>Weather</WrappedNavLink>

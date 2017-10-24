@@ -17,6 +17,11 @@ import TodoWidget from './Components/todoWidget/todoWidget';
 
 // import HangmanWidget from './Components/hangmanWidget/hangmanWidget';
 
+const AuthComponent =({match}) => (
+    <div>
+        <Route path={match.url + "/login"} component={LoginComponent} />
+    </div>
+);
 
 class App extends Component {
     render() {
@@ -32,7 +37,7 @@ class App extends Component {
                             <Route path="/weather" compontent={WeatherWidget}/>
                             <Route path="/traffic" compontent={TrafficWidget}/>
                             <Route path="/transit" compontent={MbtaWidget}/>
-                            <Route path='/login' component={LoginComponent}/>
+                            <Route path='/auth' component={AuthComponent}/>
                         </div>
                     </div>
                 </BrowserRouter>
