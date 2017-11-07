@@ -1,0 +1,34 @@
+version: '3.3'
+
+services:
+    portal:
+        build:
+            context: ./portal
+            dockerfile: df-dev.df
+            # cache_from:
+                # - portal:dev_old
+        image: portal:dev
+        container_name: dev.portal
+        domainname: modelo.dev
+        hostname: portal
+        environment:
+          NODE_ENV: "docker"
+        volumes:
+          - "./portal:/home/portal"
+          - "/home/portal/node_modules"
+        ports:
+          - "8891:8890"
+          - "5858:5858"
+          # DEBUGGING:
+          # The default ATOM Remote Debug port is 5858
+          # The default WebStorm Remote Debug port is also 5858
+          # Use the --debug=0.0.0.0:5858 option to start your node app
+          # Newer option for debugging is using Chrome dev-tools and node inspect:
+          # --inspect=0.0.0.0:5858
+#        depends_on:
+
+    #    entrypoint: ["node", "--inspect-brk=0.0.0.0:5858", "server.js"]
+        entrypoint: ["node", "--inspect=0.0.0.0:5858", "./bin/www"]
+    #    entrypoint: ["node", "--harmony-async-await", "server.js"]
+    #    entrypoint: ["node", "server.js"]
+
