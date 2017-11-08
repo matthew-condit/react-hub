@@ -17,9 +17,9 @@ import TodoWidget from './Components/todoWidget/todoWidget';
 
 // import HangmanWidget from './Components/hangmanWidget/hangmanWidget';
 
-const AuthComponent =({match}) => (
+const AuthComponent = ({match}) => (
     <div>
-        <Route path={match.url + "/login"} component={LoginComponent} />
+        <Route path={match.url + "/login"} component={LoginComponent}/>
     </div>
 );
 
@@ -41,12 +41,11 @@ class App extends Component {
                         </div>
                     </div>
                 </BrowserRouter>
-                <
-                /div>
-                )
-                ;
-                }
-                }
+
+            </div>
+        );
+    }
+}
 
 
-                export default App;
+export default App;
