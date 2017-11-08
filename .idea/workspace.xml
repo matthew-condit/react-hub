@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1035766d-68e4-419e-881c-96d5a4c6c2d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/components/sportsWidget/sportsWidget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/services/authService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-hub/src/services/localStorageService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/groceriesWidget/groceriesWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/authComponents/authComponents.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/groceriesWidget/groceriesWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/groceriesWidget/groceriesWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/hangmanWidget/hangmanWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/hangmanWidget/hangmanWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/hangmanWidget/hangmanWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/hangmanWidget/hangmanWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/index/index.css" afterPath="$PROJECT_DIR$/react-hub/src/components/groceriesWidget/groceriesWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/index/indexComponent.js" afterPath="$PROJECT_DIR$/react-hub/src/components/index/indexComponent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/index/notFound.js" afterPath="$PROJECT_DIR$/react-hub/src/components/index/notFound.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/mbtaWidget/mbtaWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/mbtaWidget/mbtaWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/mbtaWidget/mbtaWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/mbtaWidget/mbtaWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/messageBoardWidget/activeUsersWidget/activeUsersWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/messageBoardWidget/activeUsersWidget/activeUsersWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/messageBoardWidget/messageBoardWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/messageBoardWidget/messageBoardWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/messageBoardWidget/messageBoardWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/navHeader/headerUserWidget/headerUserWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/navHeader/headerUserWidget/headerUserWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.css" afterPath="$PROJECT_DIR$/react-hub/src/components/authComponents/navHeader.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/navHeader/navHeader.js" afterPath="$PROJECT_DIR$/react-hub/src/components/navHeader/navHeader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/newsWidget/newsWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/index/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/newsWidget/newsWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/newsWidget/newsWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/preferencesComponent/preferencesComponent.css" afterPath="$PROJECT_DIR$/react-hub/src/components/newsWidget/newsWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/preferencesComponent/preferencesComponent.js" afterPath="$PROJECT_DIR$/react-hub/src/components/preferencesComponent/preferencesComponent.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/sportsWidget/sportsWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/preferencesComponent/preferencesComponent.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/sportsWidget/sportsWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/sportsWidget/sportsWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.css" afterPath="$PROJECT_DIR$/react-hub/src/components/todoWidget/todoItem/todoItem.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoItem/todoItem.js" afterPath="$PROJECT_DIR$/react-hub/src/components/todoWidget/todoItem/todoItem.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/todoWidget/todoWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/todoWidget/todoWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/todoWidget/todoWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/trafficWidget/trafficWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/trafficWidget/trafficWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/trafficWidget/trafficWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/trafficWidget/trafficWidget.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.css" afterPath="$PROJECT_DIR$/react-hub/src/components/weatherWidget/weatherWidget.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-hub/src/Components/weatherWidget/weatherWidget.js" afterPath="$PROJECT_DIR$/react-hub/src/components/weatherWidget/weatherWidget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/App.js" afterPath="$PROJECT_DIR$/react-hub/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/views/loginComponent/loginComponent.js" afterPath="$PROJECT_DIR$/react-hub/src/views/loginComponent/loginComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-hub/src/components/authComponents/authComponents.js" afterPath="$PROJECT_DIR$/react-hub/src/components/authComponents/authComponents.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +25,8 @@
           <file leaf-file-name="navHeader.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/react-hub/src/components/navHeader/navHeader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -155,8 +121,8 @@
           <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/react-hub/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="31">
-                  <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+                <state relative-caret-position="121">
+                  <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -165,10 +131,10 @@
           <file leaf-file-name="authComponents.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/react-hub/src/components/authComponents/authComponents.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+                <state relative-caret-position="372">
+                  <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
                   <folding>
-                    <element signature="e#1204#1229#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -570,12 +536,12 @@
       <workItem from="1508797861683" duration="7731000" />
       <workItem from="1509923761518" duration="477000" />
       <workItem from="1509952464095" duration="690000" />
-      <workItem from="1510098269723" duration="3637000" />
+      <workItem from="1510098269723" duration="4759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64721000" />
+    <option name="totallyTimeSpent" value="65843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -883,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/components/authComponents/navHeader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -941,14 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-hub/src/services/authService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -965,20 +915,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/components/authComponents/authComponents.js">
+    <entry file="file://$PROJECT_DIR$/react-hub/src/components/navHeader/navHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="e#1204#1229#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-hub/src/components/navHeader/navHeader.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="1365">
+          <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-hub/src/components/authComponents/authComponents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
