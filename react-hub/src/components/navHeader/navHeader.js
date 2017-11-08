@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 
-import './navHeader.css';
+import '../authComponents/navHeader.css';
 import LoginComponent from "../../views/loginComponent/loginComponent";
 
 const WrappedNavLink = (props) => {

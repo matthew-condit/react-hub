@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { login } from '../../services/authService';
 import { Form, Input, Button, FormGroup, Label } from 'reactstrap';
 
 class LoginComponent extends Component {
@@ -24,10 +25,6 @@ class LoginComponent extends Component {
                         <Label for="username">UserName</Label>
                         <Input value={this.state.username} onChange={this.onUsernameChange} type="text" name="username" placeholder="UserName" />
                     </FormGroup>
-                    {/*<FormGroup>*/}
-                        {/*<Label for="examplePassword">Password</Label>*/}
-                        {/*<Input type="password" name="password" id="examplePassword" placeholder="" />*/}
-                    {/*</FormGroup>*/}
                     <Button>Submit</Button>
                 </Form>
             </div>

@@ -5,17 +5,19 @@ import {BrowserRouter} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
-import index from './Components/index/indexComponent';
-import notFound from './Components/index/notFound';
-import NavHeader from './Components/navHeader/navHeader';
+import index from './components/index/indexComponent';
+import notFound from './components/index/notFound';
+import NavHeader from './components/navHeader/navHeader';
+import
 import LoginComponent from './views/loginComponent/loginComponent';
-import WeatherWidget from './Components/weatherWidget/weatherWidget';
-import TrafficWidget from './Components/trafficWidget/trafficWidget';
-import MbtaWidget from './Components/mbtaWidget/mbtaWidget';
-import MessageBoardWidget from './Components/messageBoardWidget/messageBoardWidget';
-import TodoWidget from './Components/todoWidget/todoWidget';
+import WeatherWidget from './components/weatherWidget/weatherWidget';
+import TrafficWidget from './components/trafficWidget/trafficWidget';
+import MbtaWidget from './components/mbtaWidget/mbtaWidget';
+import MessageBoardWidget from './components/messageBoardWidget/messageBoardWidget';
+import TodoWidget from './components/todoWidget/todoWidget';
+import
 
-// import HangmanWidget from './Components/hangmanWidget/hangmanWidget';
+// import HangmanWidget from './components/hangmanWidget/hangmanWidget';
 
 const AuthComponent = ({match}) => (
     <div>
@@ -24,12 +26,21 @@ const AuthComponent = ({match}) => (
 );
 
 class App extends Component {
+
+    constructor(props) {
+        super(props);
+        const authenticated = false;
+        this.state = {
+            authenticated
+        };
+    }
+
     render() {
         return (
             <div className="App">
                 <BrowserRouter>
                     <div>
-                        <NavHeader/>
+                        <NavHeader authenticated={this.state.authenticated}/>
                         <div>
                             <Route exact path="/" component={index}/>
                             <Route path="/messages" component={MessageBoardWidget}/>
